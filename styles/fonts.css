@@ -1,0 +1,24 @@
+@font-face{
+    font-family: "Alegreya Sans Black";
+    src: url("../fonts/AlegreyaSans-Black.ttf");
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face{
+    font-family: "Alegreya Sans Bold";
+    src: url("../fonts/AlegreyaSans-Bold.ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face{
+    font-family: "Alegreya Sans Medium";
+    src: url("../fonts/AlegreyaSans-Medium.ttf");
+    font-style: normal;
+    font-weight: medium;
+}
+@font-face{
+    font-family: "Alegreya Sans Regular";
+    src: url("../fonts/AlegreyaSans-Regular.ttf");
+    font-style: normal;
+    font-weight: medium;
+}
