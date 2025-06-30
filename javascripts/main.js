@@ -101,11 +101,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
 // ОТКРЫТИЕ ОКНА ФОРМЫ
-    let openModalWindow = document.querySelector(".caseButton1");
+    let openModalWindow = document.querySelector(".caseButton");
     let formWindow = document.querySelector(".formWindow");
 
     openModalWindow.addEventListener("click", function(){
-        formWindow.style.display = "flex";
+        formWindow.style.display = "block";
     });
     // document.querySelector('.caseButton1').addEventListener('click', function() {
     //     let windows = document.querySelectorAll('.formWindow, .blackout');
