@@ -15,7 +15,7 @@
     <script src="./javascripts/main.js" charset="UTF-8"></script>
   </head>
   <body>
-    <div class="casesPage">
+    <div class="casePage">
       <!-- ХЭДЕР -->
       <div class="headerContainer">
         <a class="headerText blue" href="./cases.html">КЕЙСЫ</a>
@@ -26,16 +26,39 @@
       <a class="backButtonContainer" href="./index.html">
         <img class="backButton" src="./img/backButton.svg" alt="backButton">
       </a>
-    
 
       <!-- КОНТЕНТ -->
-      <h2>Веб-плакат</h2>
-      <h3>Сайт</h3>
-      <h3>2024</h3>
-      <p>Разработан по заказу «Сомбра» <br>
-        для продвижения нового яркого <br>
-        бренда продажи живых теней</p>
+      <div class="description">
+      <h2 class="caseHeader">Веб-плакат</h2>
+      <h3 class="caseHeader2">Сайт</h3>
+      <h3 class="caseHeader3">2024</h3>
+      <p class="caseText">Разработан по заказу «Сомбра» <br>
+      для продвижения нового яркого <br>
+      бренда продажи живых теней</p>
+      <button class="caseButton">Заказать проект</button>
+      <button class="caseButton2">Позвонить нам</button>
+      </div>
 
+      <img class="case1img" src="./img/case1img.png" alt="case1img">
 
+      <!-- МОДАЛЬНОЕ ОКНО ФОРМЫ -->
+      <div class="blackout"></div>
+      
+      <div class="formWindow">
+        <img class="closeButton" src="./img/closeButton.svg" alt="closeButton">
+        <!-- <img class="formWindowBackground" src="./img/modalWindow.svg" alt="modalWindow"> -->
+        
+        <div class="formContainer">
+            <h2 class="caseHeader formHeader">Оставить заявку</h2>
+            <form action="">
+                <input class="formField" type="text" name="name" placeholder="Имя">
+                <input class="formField" type="text" name="email" placeholder="Контактная почта">
+                <input class="formField" type="number" name="number" placeholder="Телефон">
+            </form>
+
+            <button class="sendformButton">Заказать проект</button>
+            <button class="callButton">Позвонить нам</button>
+            </div>
+    </div>
   </body>
 </html>

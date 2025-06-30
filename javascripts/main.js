@@ -100,9 +100,24 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-// АНИМАЦИЯ СТРАНИЦЫ КЕЙСОВ
+// ОТКРЫТИЕ ОКНА ФОРМЫ
+    let openModalWindow = document.querySelector(".caseButton1");
+    let formWindow = document.querySelector(".formWindow");
 
-let
+    openModalWindow.addEventListener("click", function(){
+        formWindow.style.display = "flex";
+    });
+    // document.querySelector('.caseButton1').addEventListener('click', function() {
+    //     let windows = document.querySelectorAll('.formWindow, .blackout');
+        
+    //     windows.forEach( function(window) {
+    //         let computedDisplay = getComputedStyle(window).display;
+
+    //         if (computedDisplay === 'none') {
+    //         window.style.display = 'block'; 
+    //         }
+    //         });
+    // });
 
 
 });
