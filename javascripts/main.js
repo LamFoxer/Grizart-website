@@ -100,7 +100,9 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    
-    
-    
+// АНИМАЦИЯ СТРАНИЦЫ КЕЙСОВ
+
+let
+
+
 });
